@@ -150,7 +150,7 @@ html, body{
     padding: 0.5rem;
 }
 
-@media screen and (max-width: 26.875rem){
+@media only screen and (max-width: 26.875rem){
     #container-logo figure img{
         width: 80%;
     }
