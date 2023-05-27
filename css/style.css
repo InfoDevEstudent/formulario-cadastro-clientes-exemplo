@@ -80,6 +80,7 @@ html, body{
     margin-bottom: 1rem;
     
 }
+
 .item1{
     display: flex;
 }
@@ -88,6 +89,11 @@ html, body{
     flex-direction: column;
     padding-right: 2rem;
     margin-bottom: 1rem;
+}
+.item1 .form-item p{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    padding-left: 10px;
 }
 #container-form .content-form label{
     font-family: "Inter", serif;
@@ -119,14 +125,27 @@ html, body{
     border-radius: 10px;
     padding: 0.5rem;
 }
-.item1 .form-item p{
-    font-family: "Inter", serif;
-    font-weight: 400;
-    padding-left: 10px;
-}
-#container-form .content-form input ::placeholder{
 
+.item1 .form-item .telcel{
+    width: 300px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 0.5rem;
+    color: var(--color-primary);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
 }
-#container-form .content-form p{
-    
+
+.item1 .form-item .telfix{
+    width: 300px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 0.5rem;
+    color: var(--color-primary);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
 }
