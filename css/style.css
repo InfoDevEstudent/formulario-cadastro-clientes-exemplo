@@ -31,7 +31,7 @@ html, body{
     border: none;
 }
 .content-main{
-    width: 95%;
+    width: 100%;
     margin: 20px 0px;
     background-color: var(--color-bg);
     border-radius: 20px;
@@ -150,7 +150,7 @@ html, body{
     padding: 0.5rem;
 }
 
-@media screen and (min-width: 19.875rem) and (max-width: 26.875rem){
+@media screen and (max-width: 26.875rem){
     #container-logo figure img{
         width: 80%;
     }
