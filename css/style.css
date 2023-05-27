@@ -8,6 +8,7 @@
 }
 html, body{
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -26,12 +27,16 @@ html, body{
     border: none;
 }
 .content-main{
-    width: 90%;
+    width: 95%;
     margin: 20px 0px;
     background-color: var(--color-bg);
     border-radius: 20px;
     border: none;
     opacity: 80%;
+}
+.content-main #container-logo{
+    display: flex;
+    justify-content: center;
 }
 .content-main figure{
     text-align: center;
@@ -39,11 +44,11 @@ html, body{
 .content-main figure img{
     width: 24rem;
     border-radius: 50%;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 #container-header{
-    padding: 30px 50px;
+    padding: 30px 20px;
 }
 #container-header h1{
     color: var(--color-primary);
@@ -63,7 +68,7 @@ html, body{
 }
 
 #container-form{
-    padding: 30px 50px;
+    padding: 30px 20px;
 }
 .content-form{
     display: flex;
@@ -76,6 +81,7 @@ html, body{
 }
 .form-item{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding-right: 2rem;
     margin-bottom: 1rem;
@@ -138,4 +144,21 @@ html, body{
     border: 0;
     border-radius: 10px;
     padding: 0.5rem;
+}
+
+@media screen and (min-width: 19.875rem) and (max-width: 26.875rem){
+    #container-logo figure img{
+        width: 80%;
+    }
+
+    .item1{
+        flex-direction: column;
+    }
+    #container-header h1{
+        font-size: 2rem;
+    }
+
+    .item1 .form-item .nome{
+        width: 360px;
+    }
 }
