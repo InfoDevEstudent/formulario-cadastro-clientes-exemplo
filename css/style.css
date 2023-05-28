@@ -22,7 +22,7 @@ html, body{
 }
 
 #container-main{
-    background-image: url(/img/imgBG2.jpg);
+    background-image: url(/img/imgBG2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
