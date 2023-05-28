@@ -216,4 +216,10 @@ html, body{
     .item1 .form-item .email{
         width: 300px;
     }
+    .item1 .form-item .contato1tecel{
+        width: 300px;
+    }
+    .item1 .form-item .contato2tecel{
+        width: 300px;
+    }
 }
