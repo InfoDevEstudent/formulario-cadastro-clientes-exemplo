@@ -25,13 +25,13 @@
                     <div class="item1">
                         <div class="form-item">
                             <label for="nome">Nome Completo</label>
-                            <input type="text" name="nome" id="nome" class="nome" maxlength="50">
+                            <input type="text" name="nome" id="nome" class="nome" required maxlength="50">
                             <p><em>Igual ao RG, sem abreviar</em></p>
                         </div>
     
                         <div class="form-item">
                             <label for="data">Data de Nascimento</label>
-                            <input type="text" name="data" id="data" class="data" minlength="10" maxlength="10">
+                            <input type="text" name="data" id="data" class="data" required minlength="10" maxlength="10">
                             <p><em>DD / MM / AAAA, somente números</em></p>
                         </div>
                     </div>
@@ -39,32 +39,32 @@
                     <div class="item1">
                         <div class="form-item">
                             <label for="tecl">Tel Celular (Whatsapp)</label>
-                            <input type="text" name="telcel" id="telcel" class="telcel" onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
+                            <input type="text" name="telcel" id="telcel" class="telcel" required onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
                             <p><em>DDD 9-9999-9999</em></p>
                         </div>
     
                         <div class="form-item">
                             <label for="telfix">Tel Fixo</label>
-                            <input type="text" name="telfix" id="telfix" class="telfix" onkeypress="javascript:autoFormatarTelFix(this);" maxlength="15">
+                            <input type="text" name="telfix" id="telfix" class="telfix" required onkeypress="javascript:autoFormatarTelFix(this);" maxlength="15">
                             <p><em>DDD 9999-9999</em></p>
                         </div>
 
                         <div class="form-item">
                             <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" class="email" maxlength="60">
+                            <input type="email" name="email" id="email" class="email" required maxlength="60">
                             <p><em>seu.email@exemplo.com.br</em></p>
                         </div>
                     </div>
                     <div class="item1">
                         <div class="form-item">
                             <label for="contato1tecel">Contato 1 (Whatsapp)</label>
-                            <input type="text" name="contato1tecel" id="contato1tecel" class="contato1tecel" placeholder="(opcional)" onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
+                            <input type="text" name="contato1tecel" id="contato1tecel" class="contato1tecel" required placeholder="(opcional)" onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
                             <p><em>DDD 9-9999-9999</em></p>
                         </div>
     
                         <div class="form-item">
                             <label for="contato2tecel">Contato 2 (Whatsapp)</label>
-                            <input type="text" name="contato2tecel" id="contato2tecel" class="contato2tecel" placeholder="(opcional)" onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
+                            <input type="text" name="contato2tecel" id="contato2tecel" class="contato2tecel" required placeholder="(opcional)" onkeypress="javascript:autoFormatarTelCel(this);" maxlength="17">
                             <p><em>DDD 9999-9999</em></p>
                         </div>
                     </div>
