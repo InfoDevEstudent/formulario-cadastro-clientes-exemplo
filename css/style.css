@@ -177,4 +177,7 @@ html, body{
     .item1 .form-item .nome{
         width: 300px;
     }
+    .item1 .form-item .email{
+        width: 300px;
+    }
 }
