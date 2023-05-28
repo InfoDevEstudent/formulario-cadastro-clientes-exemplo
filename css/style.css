@@ -103,7 +103,7 @@ html, body{
     padding-bottom: 0.5rem;
 }
 .item1 .form-item .nome{
-    width: 550px;
+    width: 630px;
     font-family: "Inter", serif;
     font-size: 1.3rem;
     font-weight: 500;
@@ -151,6 +151,42 @@ html, body{
 }
 .item1 .form-item .email{
     width: 450px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 0.5rem;
+    color: var(--color-primary);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.item1 .form-item .email{
+    width: 450px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 0.5rem;
+    color: var(--color-primary);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.item1 .form-item .contato1tecel{
+    width: 300px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 0.5rem;
+    color: var(--color-primary);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.item1 .form-item .contato2tecel{
+    width: 300px;
     font-family: "Inter", serif;
     font-size: 1.3rem;
     font-weight: 500;
