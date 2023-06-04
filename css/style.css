@@ -225,7 +225,6 @@ html, body{
 
     .item1{
         flex-direction: column;
-        text-align: center;
     }
     #container-header h1{
         font-size: 2rem;
