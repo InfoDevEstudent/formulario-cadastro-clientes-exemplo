@@ -7,8 +7,8 @@
     list-style: none;
 }
 html, body{
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
@@ -18,6 +18,7 @@ html, body{
 :root{
     --color-bg:rgb(240 225 194);
     --color-primary: rgb(149 96 54);
+    --color-primary-hover: rgba(149, 97, 54, 0.808);
     --color-secundary: rgb(59 83 35);
 }
 
@@ -199,14 +200,32 @@ html, body{
     padding: 0.5rem;
 }
 
+.cadastrar{
+    width: 300px;
+    font-family: "Inter", serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+.cadastrar:hover{
+    background-color: var(--color-primary-hover);
+    color: white;
+}
+
 @media only screen and (max-width: 26.875rem){
     #container-logo figure img{
-        width: 80%;
-        height: 80%;
+        width: 100dvw;
+        height: 100dhw;
     }
 
     .item1{
         flex-direction: column;
+        text-align: center;
     }
     #container-header h1{
         font-size: 2rem;
